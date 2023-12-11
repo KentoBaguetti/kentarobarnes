@@ -1,0 +1,160 @@
+body {
+    background-color: 	#011120;
+    font-family: 'Expletus Sans', sans-serif;
+}
+
+h1 {
+    margin: 10px;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.navbar {
+    background-color: 	#011120;
+}
+
+.hyperlink {
+    color: whitesmoke;
+}
+
+.icon {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.icon:hover {
+    scale: 1.1;
+}
+
+.front-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+    height: 100vh;
+    width: 100%;
+}
+
+.front-page-bio {
+    color: yellow;
+}
+
+.about {
+    padding: 5vh;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    color: whitesmoke;
+    margin: 10px;
+}
+
+.portrait {
+    width: 30vh;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.projects {
+    height: 40vh;
+    text-align: center;
+    color: whitesmoke;
+    padding: 7vh;
+    margin-bottom: 40vh;
+}
+
+.project-img {
+    width: 30vh;
+    border-radius: 20px;
+}
+
+.snake {
+    margin: 20px;
+}
+
+.netflix {
+    margin: 20px;
+}
+
+.experience {
+    height: 100vh;
+    color: whitesmoke;
+    text-align: center;
+    margin: 10px;
+    padding-top: 12vh;
+}
+
+.experience-head {
+    margin: 20px;
+}
+
+.contact {
+    margin-top: 20vh;
+    height: 50vh;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.project-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.netflix {
+    grid-column: 2/3;
+}
+
+.snake {
+    grid-column: 4/5;
+}
+
+.footer {
+    text-align: center;
+    color: whitesmoke;
+    margin-bottom: 10vh;
+}
+
+@media (max-width:500px) {
+
+.name-header {
+    font-size: smaller;
+}
+
+.name {
+    margin: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+} 
+
+.front-page-bio {
+    color: yellow;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-boxes {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: center;
+    align-items: center;
+}
+
+.project-img {
+    width: 30vh;
+    border-radius: 20px;
+    margin: 2vh;
+}
+
+}
